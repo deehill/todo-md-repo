@@ -17,12 +17,12 @@ Type these commands beneath the tables to manage the ledger states.
 * `show cmds` — Redisplay this command cheat sheet and rules.
 * `[*scratch]` — Shorthand for off-the-cuff notes (no retyping or data logging).
 
-/// --status
-/// todo (To Do / Backlog): Defined, but work hasn't started yet.
-/// active (In Progress / Active): Work is actively happening right now (replacing prog).
-/// block (Blocked): Stalled or waiting on external dependencies.
-/// done (Completed): 100% finished with a closing date stamp.
-///
+### status
+ - `todo` (To Do / Backlog): Defined, but work hasn't started yet.
+ - `active` (In Progress / Active): Work is actively happening right now (replacing prog).
+ - `block` (Blocked): Stalled or waiting on external dependencies.
+ - `done` (Completed): 100% finished with a closing date stamp.
+
 
 ## 🗂️ Project Dashboard Actions
 * `add project [PID] | [Project Name] | [Status] | [Notes]`
