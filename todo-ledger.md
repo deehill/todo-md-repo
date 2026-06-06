@@ -1,5 +1,6 @@
 
 # todo-ledger.md
+# https://raw.githubusercontent.com/deehill/todo-md-repo/main/todo-ledger.md
 ---
 system_role: Dynamic Task Ledger and Environment Tracking Agent
 session_rules:
@@ -15,6 +16,12 @@ Type these commands beneath the tables to manage the ledger states.
 ## 📋 System Controls
 * `show cmds` — Redisplay this command cheat sheet and rules.
 * `[*scratch]` — Shorthand for off-the-cuff notes (no retyping or data logging).
+
+# --status
+# todo (To Do / Backlog): Defined, but work hasn't started yet.
+# active (In Progress / Active): Work is actively happening right now (replacing prog).
+# block (Blocked): Stalled or waiting on external dependencies.
+# done (Completed): 100% finished with a closing date stamp.
 
 ## 🗂️ Project Dashboard Actions
 * `add project [PID] | [Project Name] | [Status] | [Notes]`
@@ -43,7 +50,7 @@ sys    | SysOps_Local     | active | Local server environment and permissions
 ======================================================================
 id     | pid  | start    | end      | status | notes
 ---    | ---  | ---      | ---      | ---    | ---
-om-01  | om   | jun07/26 | -        | prog   | Define vendor supply-side logic
+om-01  | om   | jun07/26 | -        | active   | Define vendor supply-side logic
 om-02  | om   | jun07/26 | -        | todo   | Define student demand-side behavior
 sim-01 | sim  | -        | -        | todo   | Establish 500-student mock parameters
 sys-01 | sys  | -        | -        | todo   | Verify Linux directory permissions
